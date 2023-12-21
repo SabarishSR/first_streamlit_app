@@ -34,7 +34,7 @@ try:
         streamlit.dataframe(back_from_function)
 
 
-except YRLError as e:
+#except YRLError as e:
 streamlit.error()
 
 import snowflake.connector
